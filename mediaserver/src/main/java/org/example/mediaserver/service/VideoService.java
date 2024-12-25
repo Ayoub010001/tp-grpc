@@ -16,7 +16,7 @@ import java.util.List;
 @GrpcService
 public class VideoService extends VideoServiceGrpc.VideoServiceImplBase {
 
-    public static List<VideoEntity> listVideos = new ArrayList<>();
+    public List<VideoEntity> listVideos = new ArrayList<>();
 
     @Autowired
     private VideoMapper videoMapper;
