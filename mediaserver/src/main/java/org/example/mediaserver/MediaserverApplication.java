@@ -31,7 +31,7 @@ public class MediaserverApplication {
                     .build();
             creatorService.listCreators.add(creator);
 
-// Then add a video in VideoService
+            // Then add a video in VideoService
             VideoEntity video = VideoEntity.builder()
                     .id("video1")
                     .title("Test Video")
